@@ -16,7 +16,12 @@
   
   h1,
   h2 {
-    margin: 20px;
+    margin: 30px;
+  }
+
+  .bolded { 
+    font-weight: bold;
+    text-align: center;
   }
   
   main {
@@ -36,22 +41,22 @@
   
   header,
   footer {
-    height: 60px;
+    height: 30px;
     width: 100%;
-    line-height: 60px;
+    line-height: 30px;
     background-color: #13a0b3;
   }
   
   header {
     position: fixed;
-    border-bottom: 10px solid #000000;
+    border-bottom: 8px solid #000000;
   }
   
   footer {
-    position: absolute;
+    position:relative;
     margin-top: 0;
     bottom: 0;
-    border-bottom: 10px solid #000000;
+    border-bottom: 6px solid #000000;
     color: #f3efef;    
   }
   
@@ -67,8 +72,8 @@
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
+    border-top: 3px solid #79a304;
+    background-color:  #b6e98d;
   }
   
   form {
@@ -76,7 +81,7 @@
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid #DDAF94;
+    border: 5px solid #79a304;
     border-radius: 20px;
   }
   
